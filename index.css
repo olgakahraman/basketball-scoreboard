@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width:575px;
+    height:385px;
+    margin:50px auto;
+}
+.board{
+    text-align: center;
+}
+h3{
+    color:#EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+h2{
+    text-align: center;
+    width:155px;
+    height:120px;
+    background-color: #080001;
+    color:#F94F6D;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    line-height: 126px;
+    border-radius: 5px;
+    margin-bottom:20px;
+    
+}
+.add-points-btn{
+    color:#9AABD8;
+    border:1px solid #9AABD8;
+    background: #1B244A;
+    border-radius: 5px;
+    width:45px;
+    height:45px;
+    margin-right: 6px;
+    
+}
