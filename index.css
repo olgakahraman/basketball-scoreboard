@@ -1,21 +1,23 @@
 * {
     margin: 0;
     background-color: #1B244A;
+    font-family: 'Share Tech Mono', monospace;
 }
 
-.container {
+.scoreboard {
     display: flex;
     justify-content: space-around;
     width:575px;
     height:385px;
     margin:50px auto;
+    margin-bottom: 0;
 }
 .board{
     text-align: center;
 }
 h3{
     color:#EEEEEE;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     font-size: 40px;
     line-height: 35px;
     margin-bottom: 20px;
@@ -28,7 +30,7 @@ h2{
     height:120px;
     background-color: #080001;
     color:#F94F6D;
-    font-family: 'Orbitron', sans-serif;
+    
     font-size: 80px;
     line-height: 126px;
     border-radius: 5px;
@@ -44,4 +46,28 @@ h2{
     height:45px;
     margin-right: 6px;
     
+     transition: all 200ms ease;
+}
+.add-points-btn:hover{
+    cursor: pointer;
+    background: #9AABD8;
+    color:#1B244A;
+}
+.new-game-btn{
+    display:block;
+    margin:0 auto;
+    border:1px solid #9AABD8;
+    background: #9AABD8;
+    color:#1B244A;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all 200ms ease;
+
+
+}
+.new-game-btn:hover{
+    cursor: pointer;
+    color:#9AABD8;
+    background: #1B244A;
 }
