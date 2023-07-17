@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Scoreboard</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
 </head>
 <link rel="stylesheet" href="index.css">
 <body>
     <div class="container">
+        <div class="scoreboard">
             <div class="home board">
                 <h3>HOME</h3>
                 <h2 class="home-points-text" id="homePointsText">0</h2>
                 <div class="add-points-btns-home">
                     <button class="add-points-btn" id="add1pointToHome">+1</button>
-                    <button class="add-points-btn"  id="add2pointToHome">+2</button>
-                    <button class="add-points-btn"  id="add3pointToHome">+3</button>
+                    <button class="add-points-btn"  id="add2pointsToHome">+2</button>
+                    <button class="add-points-btn"  id="add3pointsToHome">+3</button>
                 </div>
             </div>
             <div class="guest board">
@@ -28,10 +28,11 @@
                 <h2 class="guest-points-text" id="guestPointsText">0</h2>
                 <div class="add-points-btns-guest">
                     <button class="add-points-btn"  id="add1pointToGuest">+1</button>
-                    <button class="add-points-btn" id="add2pointToGuest">+2</button>
-                    <button class="add-points-btn"  id="add3pointToGuest">+3</button>
+                    <button class="add-points-btn" id="add2pointsToGuest">+2</button>
+                    <button class="add-points-btn"  id="add3pointsToGuest">+3</button>
                 </div>
-            </div>
+            </div></div>
+            <button class="new-game-btn" id="newGameBtn">NEW GAME</button>
         </div>
 
     <script src="index.js"></script>
